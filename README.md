@@ -2,6 +2,10 @@
 
 ## Change last commit
 
+### Docs
+
+- [Change commit message](https://help.github.com/articles/changing-a-commit-message/)
+
 ### Message
 
 ```bash
@@ -10,6 +14,10 @@ git commit --amend
 ```
 
 ## Rebase
+
+### Docs
+
+- [Keep fork up to date](https://robots.thoughtbot.com/keeping-a-github-fork-updated)
 
 ### The things
 
@@ -33,6 +41,10 @@ gup origin master
 
 ## Branch
 
+### Docs
+
+- [New branch](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
+
 ### New
 
 #### Long form
@@ -48,6 +60,10 @@ gcb new-branch-name
 ```
 
 ### Remote
+
+#### Docs
+
+- [Adding a remote](https://help.github.com/articles/adding-a-remote/)
 
 #### Long form
 
