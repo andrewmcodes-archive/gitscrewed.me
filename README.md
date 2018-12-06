@@ -52,7 +52,7 @@ gcb new-branch-name
 #### Long form
 
 ```bash
-git remote add origin https://github.com/user/repo.git
+git remote add upstream https://github.com/user/repo.git
 ```
 
 #### With ZSH alias
