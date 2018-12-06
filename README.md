@@ -30,3 +30,19 @@ gl
 gco -
 gup origin master
 ```
+
+## Branch
+
+### New
+
+#### Long form
+
+```bash
+git checkout -b new-branch-name
+```
+
+#### With ZSH alias
+
+```bash
+gcb new-branch-name
+```
