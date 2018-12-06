@@ -46,3 +46,17 @@ git checkout -b new-branch-name
 ```bash
 gcb new-branch-name
 ```
+
+### Remote
+
+#### Long form
+
+```bash
+git remote add origin https://github.com/user/repo.git
+```
+
+#### With ZSH alias
+
+```bash
+gra upstream https://github.com/user/repo.git
+```
