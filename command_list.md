@@ -26,6 +26,8 @@ git log v1.0.0             # tag
 git log --oneline          # shorthand for --pretty=oneline --abbrev-commit together
 git log --oneline -N --author andrewmcodes --before "Thu Mar 1 2018"
 git shortlog               # groups commits by user, howing just the subject line for concision
+git log --stat branch1 --not branch2 # show what is in one branch and not the other
+git log --graph --all
 ```
 
 ## Revert
@@ -84,4 +86,32 @@ git bisect good sha # last working commit
 git bisect bad sha # broken commit
 git bisect good/bad # mark commit as working or broken
 git bisect reset # end bisect
+```
+
+## Branch
+
+### Show last commit on each branch
+
+```bash
+git branch -v
+```
+
+## Cherrypick
+
+### Cherrypick single commit
+
+```bash
+git cherry-pick sha
+```
+
+### Cherrypick multiple commits
+
+```bash
+git cherry-pick sha1 sha2
+```
+
+### Cherrypick merge
+
+```bash
+git cherry-pick -m 1 <hash>
 ```
